@@ -1,0 +1,9 @@
+var modA, modB, modC;
+
+modA = require('pkgA/modA');
+modB = require('pkgA/modB');
+modC = require('pkgZ/modC');
+
+function doStuff() { ... }
+
+exports.doStuff = doStuff;

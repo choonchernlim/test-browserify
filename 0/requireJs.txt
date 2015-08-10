@@ -1,0 +1,11 @@
+define( ['pkgA/modA', 'pkgA/modB', 'pkgZ/modC'],
+
+    function ( modA, modB, modC ) {
+
+        var myModule = {
+            doStuff : function () { ... }
+        }
+
+        return myModule;
+    }
+);
